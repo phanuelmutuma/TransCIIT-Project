@@ -84,7 +84,7 @@ const BottomNavBar = ({ currentTab }: Props) => {
               ))}
             </Popover.Group>
             <div className="absolute inset-y-0 right-0 flex items-center pr-2 lg:static lg:inset-auto lg:ml-6 lg:pr-0">
-              <div className="w-full text-gray-600 lg:w-auto lg:pr-3 lg:pt-0">
+              <div className="w-full text-gray-600 lg:w-auto lg:pr-3">
                 <div className="flex flex-col gap-6 truncate font-medium tracking-wide lg:flex-row lg:gap-0 lg:text-sm">
                   {user ? (
                     user?.unsafeMetadata?.data?.["accountType"] ===
@@ -131,7 +131,7 @@ const BottomNavBar = ({ currentTab }: Props) => {
                 <Link href="https://github.com/transciit/TransCIIT-Project">
                   <Image
                     src="/assets/images/github-mark.png"
-                    alt="Github Logo"
+                    alt="Github"
                     width={30}
                     height={30}
                     className="opacity-80 hover:opacity-100"
